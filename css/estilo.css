@@ -1,0 +1,93 @@
+/* Patrones Globales del css */
+
+h6 {font-family: "Permanent Marker", cursive; }
+h1, h2, h3, h4, h5 {font-family: "Barlow", sans-serif;}
+p, a, button, form, input, option, textarea, em, span, strong, div {font-family: "Roboto", sans-serif;}
+
+body { margin: 0 !important;}
+
+header, main, footer, aside, section, article, figure, nav, div {display: block;}
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+
+/* Maquetación estilos y acabados en CSS */
+
+
+
+/* Whatsapp Button */
+aside#whatsapp { width: 45px; height: 45px; margin: 0; float: none; position: fixed; bottom: 20px; right: 20px; z-index: 9999; }
+aside#whatsapp a { width: 100%; height: auto; margin: 0; float: none; position: relative; display: block; text-align: center; color: #fff; background: #1bc504; font-size: 1.5em; padding: 8px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+aside#whatsapp a:hover { background: #096d00; transition: all 0.3s ease-in;}
+
+
+
+/* ScrollTop Button */
+aside#scroll-top { width: 45px; height: 45px; margin: 0; float: none; position: fixed; bottom: 75px; right: 20px; z-index: 9998; }
+aside#scroll-top a { width: 100%; height: auto; margin: 0; float: none; position: relative; display: block; text-align: center; color: #fff; background: #d10007; font-size: 1.5em; padding: 8px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+aside#scroll-top a :hover {background: #d10007; transition: all 0.3s ease-in; }
+    
+
+/* Header */
+header {width: 100%;height: 100px; margin: 0; float: none; position: fixed; top: 0;left: 0;z-index: 99999; background: url('../img/header.png');}
+header article {width: 900px; height: 100px; margin: 0 auto; float: none; position: relative;}
+
+header article figure {width: 80px; height: 90px; margin: 0; float: left; position: relative;}
+header article figure a {width: 78px; height: 90px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in;}
+header article figure a img { width: 71px; height: 106px; display: block; top: -10px; margin: 0; float: none; position: relative; transition: all 0.2s ease-in; border-radius: 16px;}
+header article figure a :hover {transform: scale(1.05) ; transition: all 0.3s ease-in; background: #00000014;}
+header article figure a :hover img {transition: all 0.2s ease-in;}
+
+header article nav {width: 524px; height: 50px; margin: 25px; float: right; position: relative; }
+header article nav a {width: auto; height: auto; margin: 0 ;float: left; position: relative; display: block; color: #000;text-decoration: none;font-size: 1em; line-height: 1em;font-weight: 500;padding: 17px 15px 8px;text-transform: uppercase; letter-spacing: 0.08em; transition: all 0.2s ease-in;}
+header article nav a:hover {color: #8c0c0c ;border-bottom:solid 2px #000; transition: all 0.2 ease-in; background: #00000014;}
+
+ 
+/* Main */
+main { width: 100%; height: auto; margin: 190px auto 0 auto; float: none; position: relative; }    
+
+/* AREPAS, BERBERAGUES Y PIZZA*/
+main section.section-menu  {width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; }
+main section.section-menu div.contenido-centrado {  width: 1100px; height: auto; margin: 0 auto; float: none; position: relative; }
+    
+main section.section-menu div.contenido-centrado article { width: 100%; height: auto; margin: 0 auto 50px    ; float: none; position: relative; } 
+main section.section-menu div.contenido-centrado article h6 { font-size: 1.3em; text-align: center; color: #d40101; letter-spacing: 0.1em; font-weight: 500; padding: 0 0 10px; }
+main section.section-menu div.contenido-centrado article h3 { font-size: 3.5em; line-height: 1em; text-align: center; color: #000000; letter-spacing: 0.02em; font-weight: 900; padding: 0; }
+
+
+main section.section-menu div.contenido-centrado figure { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; } 
+main section.section-menu div.contenido-centrado figure div.productos { width: 490px; height: 110px; margin: 29px; float: none; position: relative; display: inline-block; }
+main section.section-menu div.contenido-centrado figure div.productos img { width: 70px; height: 70px; display: block; margin: 0; float: none; position: absolute; top: 0; left: 0; border-radius: 10px; }
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto { width: 400px; height: 110px; display: block; margin: 0; float: none; position: absolute; top: 0; right: 0; }
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto h5 { width: 35px; height: auto; display: block; margin: 0 0 8px; float: none; position: relative; top: 0; background: #d40101; color: #fff; text-transform: uppercase; font-size: 0.66em; line-height: 1em; font-weight: 600; letter-spacing: 0.15px; padding: 3px 6px; border-radius: 19px; }
+
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto h5.reco { width: 80px; height: 10px; margin: 0 0 11px; float: none; position: relative; background: #d40101; color: #fff; text-align: center; text-transform: uppercase; font-size: 0.7em; line-height: 1em; font-weight: 500; letter-spacing: 0.035em; }
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto h5.new { width: 33px; }
+
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto h4 { font-size: 1.22em; line-height: 1em; text-align: left; color: #000000; letter-spacing: 0.03em; font-weight: 750; padding: 0 0 9px; }
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto p.texto-producto { font-size: 0.85em; line-height: 1em; text-align: left; color: #999; letter-spacing: 0.02em; font-weight: 200; padding: 9px 0 9px }
+main section.section-menu div.contenido-centrado figure div.productos div.puntos { width: 50px; height: auto; display: block; margin: 0; float: none; position: absolute; top: -3px; right: 64px; font-size: 0.85em; line-height: 1em; text-align: center; color: #999; letter-spacing: 0.02em; font-weight: 200; padding: 0 0 9px; }
+main section.section-menu div.contenido-centrado figure div.productos div.precio-producto { width: auto; height: auto; display: block; margin: 0; float: none; position: absolute; top: 0px; right: 0; font-size: 1.22em; line-height: 1em; text-align: right; color: #d40101; letter-spacing: -0.015em; font-weight: 600; padding: 0 0 9px; }
+
+
+/* COMBOS*/
+main section#combos {width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; } 
+main section#combos article { width: 1100px; height: 238px; float: none; position: relative; margin: 0px auto }
+main section#combos article nav { width: 100%; height: 238px; margin: 0; float: none; position: relative; }
+main section#combos article nav a { width: 346px; height: 238px; margin: 0 30px 0 0; float: left; position: relative; display: block; transition: all 0.2   s ease-in }
+main section#combos article nav a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.2   s ease-in; } 
+main section#combos article nav a:hover  { opacity: 0.8; transition: all 0.2   s ease-in; }
+main section#combos article nav a:hover img { transform: scale(1.03); transition: all 0.2   s ease-in; }
+
+main section#combos article nav a:nth-child(3) { margin: 0; }
+
+
+/* FOOTER */
+footer {width: 100%; height: 200px; margin: 0; float: none; position: relative; background: url('../img/footer_bg.png') no-repeat top center #333 ; background-size: cover;}
+footer article { width: 1100px; height: 200px; margin: 0 auto; float: none; position: relative }
+footer article hr { width: 453px; height: 1px; display: block;  margin: 99px 0; float: left; border: none; background: #555; }
+footer article figure { width: 108px;height: 149px;margin: 25px 38px 25px 42px;float: left;position: relative; }
+footer article figure a { width: 109px;height: 149px;margin: 0px auto;float: none;position: relative;display: block;transition: all 0.2s ease-in; }
+footer article figure a img { width: auto;height: 149px;display: block;margin: 0 auto;float: none;position: relative;transition: all 0.2s ease-in; border-radius: 52px; }
+footer article figure a:hover { transform: scale(1.09);transition: all 0.3s ease-in; }
+footer article figure a:hover img { transition: all 0.2s ease-in; }
